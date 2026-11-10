@@ -1,0 +1,6 @@
+words=input("enter words: ").split()
+longest=words[0]
+for word in words:
+      if len(word)>len(longest):
+          longest=word
+print("length of longest word: ",len(longest))
